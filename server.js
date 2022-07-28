@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 5000;
 const firestoreClient = require("./firestoreClient");
 
 app.use(cors());
-// test commit
 
 const server = http.createServer(app);
 const io = new Server(server, {
